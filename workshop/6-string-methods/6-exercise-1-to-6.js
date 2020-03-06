@@ -20,32 +20,56 @@ const notCode = ['summer', 'bacon', 'scary', 'intergalactic', 'jerry', 'morty', 
 // Q1
 // How many names does Morty have? (use grandson)
 
-
+let mortyNames = grandson.split(" ");
+console.log(mortyNames.length);
 
 // Q2
 // Convert the alternateRicks string to an array. Console that array.
+
+console.log(alternateRicks.toArray);
+
 
 
 
 // Q3
 // How many Ricks have been named in alternateRicks?
 
+function howMany(Ricks){
+
+    return Ricks = "Rick";
+
+
+}
 
 
 // Q4
 // How many characters are there in rickSaying (without spaces)? 
 
+let saying = rickSaying.split("");
+console.log(saying.length)
+
+
 
 
 // Q4
 // Morty doesn't actually have a middle name. Console Morty's name without "Antoine".
+ 
+let noName = mortyNames.toArray ;
 
+console.log(noName.splice(1,1));
 
 
 // Q5
 // Decode and console. the secret!
 // To do so, you will need to remove all of the notCode words.
 
+
+let decodeTheSecret = secret
+
+function decoding(word) {
+    notCode.forEach (word, " ")
+}
+console.log(decodeTheSecret(decoding));
 
 
 // Q6 (challenge)
