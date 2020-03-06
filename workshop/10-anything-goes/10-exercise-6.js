@@ -18,6 +18,16 @@
 
 function identifyArmstrongNumbers(num1, num2) {
 
+    for(let i=num1; i<=num2; i++)
+    let numbers=armstrongNumbers[i]
+    let sum = 0
+    if (Number.armstrongNumbers[i]*Number.armstrongNumbers[i]*Number.armstrongNumbers[i] === [i] ){
+        return sum += Number.armstronNumbers[i]  
+    }
+    let sum2=1
+    for (let x = 0; x<sum.length; x++){
+        
+    }
 }
 
 console.log(identifyArmstrongNumbers(100, 99999));

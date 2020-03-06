@@ -4,10 +4,19 @@
 
 function itemIsPresent(array, item) {
 
+    for (let i = 0; i<array.length; i++){
+
+        if (array[i] === item){
+            return true
+        } else { 
+            return false
+        }
+    }
+
 }
 
 
 // Test case
 const myArray = ['bacon', 'purple', 'door', 'window', 'exist', 'code', 'program', 'funky'];
 
-console.log(myArray, 'funky');
+console.log(itemIsPresent(myArray, 'door'));

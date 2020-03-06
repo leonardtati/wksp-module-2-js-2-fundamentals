@@ -57,11 +57,35 @@
 ```js
 // Q1. Write a function that returns the sum of 3 numbers.
 
+function add(a, b, c){
+    return a + b  + c;
+}
+add(4, 6, 8);
+
+
+
 
 // Q2. Write a function that returns the square of a number minus twice the number.
 
+function square(g){
+return g*g -g*2;
+}
+square(16);
+
 
 // Q3. Write a function that returns the a person's full name, given their first and last names.
+
+function name(first, last) {
+
+const fullName = `${first} ${last}`;
+console.log(fullName);
+return fullName;
+}
+name('Leonard', 'Poissant');
+
+
+
+
 
 
 ```

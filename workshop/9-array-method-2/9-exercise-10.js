@@ -9,7 +9,18 @@
 // <100 is A
 
 // Write function here
+function calculateAverage(grades) {
 
+    let sumOf= 0;
+    grades.forEach(function(number) {
+        return sumOf = sumOf + number;
+    });
+    return Math.round(sumOf / 5);
+}
+
+function giveMeAnA(grade){
+
+}
 
  
 // Call the function with [48, 95, 65, 48, 59, 78, 72, 65]

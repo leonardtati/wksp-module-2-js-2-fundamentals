@@ -9,7 +9,13 @@
 function allLong(lst) {
     // lst is an array of strings
 
+    let longEngough = lst.every(function(element){
+        return element.length > 4;
+    });
+    return longEngough;
 }
+        
+    
 // -------------------------------------------------------------------------
 console.log('Q8 - case 1', allLong(['Scott', 'Bob', 'Ric', 'Jim']));
 console.log('Q8 - case 2', allLong(['Cyborg', 'Robin', 'Batman', 'Superman', 'Aquaman', 'Flash']));

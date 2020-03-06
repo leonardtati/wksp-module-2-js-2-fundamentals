@@ -12,6 +12,16 @@
 
 function countChar(str, char) {
 
+    let countUaz = str.split("");
+    
+    for (let i = 0 ; i<countUaz.length; i++){
+
+        if(countUaz.char === 'u' || countUaz.char === 'a' || countUaz.char === 'z' ){
+            return  countUaz ++
+        }
+
+    }
+
 
 }
 // -------------------------------------------------------------------------

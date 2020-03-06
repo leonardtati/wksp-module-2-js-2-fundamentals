@@ -11,6 +11,14 @@
 let armstrongNumbers = [];
 
 // write your loop here...
+for (let i = 0; i<=999; i++){
+    let numbers= armstrongNumbers[i];
+    let sum = 0;
+    if (Number.armstrongNumbers[i]*Number.armstrongNumbers[i]*Number.armstrongNumbers[i] === [i] ){
+        return sum ++
+
+    }
+}
 
 
 console.log(armstrongNumbers);
